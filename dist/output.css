@@ -641,6 +641,10 @@ html,body{
   position: relative;
 }
 
+.sticky {
+  position: sticky;
+}
+
 .inset-0 {
   inset: 0px;
 }
@@ -707,6 +711,10 @@ html,body{
 
 .top-\[10\%\] {
   top: 10%;
+}
+
+.top-0 {
+  top: 0px;
 }
 
 .z-10 {
@@ -1258,6 +1266,11 @@ html,body{
 .py-9 {
   padding-top: 2.25rem;
   padding-bottom: 2.25rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .pr-1 {
