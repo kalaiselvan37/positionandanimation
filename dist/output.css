@@ -907,6 +907,10 @@ html,body{
   max-width: 80rem;
 }
 
+.flex-none {
+  flex: none;
+}
+
 .grow {
   flex-grow: 1;
 }
@@ -1298,6 +1302,11 @@ html,body{
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
