@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    @keyframes bikeride{
+        0%{right: -27%;}
+        100%{right: 100%;}
+    }
+    @keyframes leaves {
+        20%{transform: rotate(15deg);}
+        40%{transform: rotate(-10deg);}
+        60%{transform: rotate(5deg);}
+        80%{transform: rotate(-5deg);}
+        100%{transform: rotate(0deg);}
+    }
+    @keyframes balloon {
+        0%{top: 40%;opacity: 0;}
+        30%{transform: scale(1.5);opacity: 1;}
+        100%{top: 10%;opacity: 0;}
+        
+    }
+    @keyframes balloon1 {
+        0%{top: 40%;opacity: 0; }
+        30%{transform: scale(1.5); opacity: 1;}
+        100%{top: 10%; opacity: 0;}
+        
+    }
+    @keyframes balloon2 {
+        0%{top: 40%;opacity: 0;}
+        30%{transform: scale(1.5);opacity: 1;}
+        100%{top: 15%;opacity: 0;}
+        
+    }
+
+
+    
+
+}
