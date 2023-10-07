@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/dist/output.css" rel="stylesheet">
 </head>
-<body class="overflow-x-hidden ">
+<body class="!overflow-x-hidden ">
     <header class="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full text-sm py-3 sm:py-0 dark:bg-gray-800 dark:border-gray-700">
         <nav class="relative max-w-6xl w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8" aria-label="Global">
           <div class="flex items-center justify-between">
@@ -37,11 +37,11 @@
         </nav>
       </header>
       <main>
-        <section class="bg-[url(https://bytesed.com/tf/oxo/assets/img/header-slider/01.png)] min-h-screen bg-center bg-no-repeat py-12">
-          <div class="bg-[url(https://bytesed.com/tf/oxo/assets/img/balloon/cercle.png)] h-[620px] w-[520px] absolute bottom-4 right-2 z-10 bg-no-repeat"> </div>
+        <section class="bg-[url(https://bytesed.com/tf/oxo/assets/img/header-slider/01.png)] min-h-screen min-w-fit bg-center bg-no-repeat bg-cover">
+          <div class="bg-[url(https://bytesed.com/tf/oxo/assets/img/balloon/cercle.png)] h-[620px] w-[510px] absolute bottom-4 right-2 z-10 bg-no-repeat lg:block hidden"> </div>
            
             <div class="bg-[url(https://bytesed.com/tf/oxo/assets/img/leaf/leaf-04.png)] h-[115px] w-[50px] absolute bottom-10 left-[30%] animate-[leaves_12s_infinite] bg-no-repeat"></div>
-           <div class="bg-[url(https://bytesed.com/tf/oxo/assets/img/balloon/bike.png)] h-[250px] w-[380px] absolute bottom-4 right-2 animate-[bikeride_12s_infinite] z-10"></div>
+           <div class="bg-[url(https://bytesed.com/tf/oxo/assets/img/balloon/bike.png)] h-[250px] w-[380px] absolute bottom-4 right-2 animate-[bikeride_12s_infinite] z-10 overflow-x-hidden"></div>
            <div class="bg-[url(https://bytesed.com/tf/oxo/assets/img/leaf/leaf-01.png)] h-[165px] w-[60px] absolute bottom-10 left-10 animate-[leaves_12s_infinite] bg-no-repeat"></div>
            <div class="bg-[url(https://bytesed.com/tf/oxo/assets/img/leaf/leaf-02.png)] h-[165px] w-[60px] absolute bottom-1 left-[6%] animate-[leaves_12s_infinite] bg-no-repeat"></div>
            <div class="bg-[url(https://bytesed.com/tf/oxo/assets/img/leaf/leaf-03.png)] h-[300px] w-[70px] absolute bottom-5 right-[19%] animate-[leaves_12s_infinite]  bg-no-repeat"></div>
@@ -53,7 +53,7 @@
           <div class="max-w-6xl w-full mx-auto px-5 sm:px-6 lg:px-8">
             <div class="grid grid-cols-none lg:grid-cols-0">
                 <div>
-                  <h1 class="font-bold text-3xl text-blue-950 lg:text-7xl mt-[15%]">Lets pack for <br> your next<br> adventure</h1>
+                  <h1 class="font-bold text-3xl text-blue-950 lg:text-7xl mt-[15%]">Lets pack for your next adventure</h1>
                   <button type="button" class="mt-4 py-3 px-4 pr-1 inline-flex justify-center items-center gap-3 rounded-full border border-transparent font-semibold bg-rose-500 text-white hover:bg-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm sm:p-5">
                     Send App to your Phone
                   </button>
@@ -65,30 +65,41 @@
           </div>
 
         </section>
-          <section class="py-10">
+          <section class="py-9">
             <div class=" max-w-7xl w-full mx-auto px-4  sm:px-6 lg:px-8">
-                <div class="grid grid-cols-1 lg:grid-cols-none">
-                    <p class="text-1xl text-rose-600 font-bold text-center">Top Packages</p>
-                    <p class="text-center font-bold text-3xl">Explore unique places & <br>get amazing experience</p>
+                <div class="grid grid-cols-1">
+                    <h1 class="text-center font-semibold text-xs text-rose-600">Top Pakages</h1>
+                    <h1 class="text-center font-bold text-3xl text-black">Explore unique places &amp;</h1>
+                    <h1 class="text-center font-bold text-3xl text-black">get amazing experience</h1>
+
+                
+                  <div class="grid grid-cols-1 lg:grid-cols-4 mt-8 gap-3">
+                    <div class="p-20 border bg-[url(https://t3.gstatic.com/images?q=tbn:ANd9GcSshfv8wOyxODLvQ9-lzEtboGAx_nVkzyIIbMLnC98u5nsehz1z)] bg-no-repeat bg-cover bg-pink-200 rounded-[50px] flex  justify-center items-center">
+                      <div><button type="button" class="py-3 px-6 inline-flex justify-center items-center gap-2 rounded-full border border-inherit font-semibold bg-white text-pink-400 hover:bg-blue-950 focus:outline-neutral-50 focus:ring-2 focus:ring-offset-white focus:ring-offset-2 transition-all text-sm ">
+                        $250
+                      </button>
+                      <p class="font-extrabold text-white text-center">Thailand</p></div>
+                    </div>
+                    <div class="p-20 border bg-[url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSw_T7BsP5SZmZU7a4hF_1othp1OX7iJGLMD7pzaMzIB4ZwmMQ0)] bg-no-repeat bg-cover rounded-[50px] flex  justify-center items-center">
+                      <div><button type="button" class="py-3 px-6 inline-flex justify-center items-center gap-2 rounded-full border border-inherit font-semibold bg-white text-pink-400 hover:bg-blue-950 focus:outline-neutral-50 focus:ring-2 focus:ring-offset-white focus:ring-offset-2 transition-all text-sm ">
+                        $100
+                      </button>
+                      <p class="font-extrabold text-white text-center">Thailand</p></div>
+                    </div>
+                    <div class="p-20 border bg-[url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRkrVjXWJb6yYntKywhFFE30Gbm7ILNF51UdaVQ4Ky68XZ2uDE4)] bg-no-repeat bg-cover rounded-[50px] flex  justify-center items-center">
+                      <div><button type="button" class="py-3 px-6 inline-flex justify-center items-center gap-2 rounded-full border border-inherit font-semibold bg-white text-pink-400 hover:bg-blue-950 focus:outline-neutral-50 focus:ring-2 focus:ring-offset-white focus:ring-offset-2 transition-all text-sm ">
+                        $200
+                      </button>
+                      <p class="font-extrabold text-white text-center">Thailand</p></div>
+                    </div>
+                    <div class="p-20 border bg-[url(https://img.freepik.com/premium-photo/misty-mountain-wallpaper-purple-tone_969965-7451.jpg?size=626&ext=jpg&ga=GA1.2.1486150519.1696658779&semt=ais)] bg-no-repeat bg-cover rounded-[50px] flex  justify-center items-center">
+                      <div><button type="button" class="py-3 px-6 inline-flex justify-center items-center gap-2 rounded-full border border-inherit font-semibold bg-white text-pink-400 hover:bg-blue-950 focus:outline-neutral-50 focus:ring-2 focus:ring-offset-white focus:ring-offset-2 transition-all text-sm ">
+                        $450
+                      </button>
+                      <p class="font-extrabold text-white text-center">Thailand</p></div>
+                    </div>
                   </div>
-                  <div class="grid grid-cols-1 lg:grid-cols-4">
-                <div class="p-5"><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT2a5bu4_QNIZDBd8NnErZv7LTsenpZiegJuCUYU2qPcyhVJobY" alt=""></div>
-                <div class="p-5"><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSw_T7BsP5SZmZU7a4hF_1othp1OX7iJGLMD7pzaMzIB4ZwmMQ0" alt=""></div>
-                <div class="p-5"><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ0a4GpA2-I3YGVahzeUFzdzCBsJfqwmKUYc9n4tZTqe1vtegFB" alt=""></div>
-                <div class="p-5"><img src="https://beanstalk-9fcd.kxcdn.com/wp-content/uploads/2022/09/buy-mana-1.jpg" alt=""></div>
-              </div>
-
-
-        </section>
-        <section class="bg-[url(https://bytesed.com/tf/oxo/assets/img/choose/bg.png)] p-[15%] min-h-screen bg-center bg-no-repeat py-16 bg-slate-cover">
-          <div class="max-w-9xl w-full mx-auto px-5 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-none lg:grid-cols-0">
-              
-            </div>
-
-          </div>
-
-        </section>
+                </section>
         
       </main>
 </body>

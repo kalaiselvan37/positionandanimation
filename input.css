@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer base{
+    html,body{
+        overflow-x: hidden!important;
+    }
     @keyframes bikeride{
         0%{right: -27%;}
         100%{right: 100%;}
